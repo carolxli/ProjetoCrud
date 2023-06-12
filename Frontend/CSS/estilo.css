@@ -1,0 +1,72 @@
+h4{
+    text-align: center;
+    color: #1f0000;
+}
+footer {
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#index-form {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    margin-bottom: 170px; 
+}
+
+#index-form button {
+    padding: 4px;
+    background-color: #470000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#index-form label {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#btnNovo {
+    text-align: center;
+}
+#agendamentos-form {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    margin-bottom: 170px; 
+}
+
+#agendamentos-form button {
+    padding: 4px;
+    background-color: #470000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 35px;
+}
+#btnAgendamentos {
+    text-align: center;
+}
+#faixaSuperior {
+    align-content: center;
+    background-color: #520000;
+    max-height: 100px;
+}
+
+#imagemLogo {
+    max-height: 400px;
+    margin-top: 15px;
+}
+#divImg{
+    display: flex;
+    justify-content: center;
+}

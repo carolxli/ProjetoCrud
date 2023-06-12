@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="../Scripts/agendamentos.js"></script>
+    <title>6° Andar</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/estilo.css">
+</head>
+
+<body>
+    <div class="row align-items-start" id="faixaSuperior">
+        <div class="col">
+            <div id="divImg">
+                <img src="../Imagens/LOGO-transparente.png" id="imagemLogo">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <form id="agendamentos-form">
+            <div class="form-row">
+                <div class="col-md-3 mb-3">
+                    <label for="buscaCpf">Buscar CPF:</label>
+                    <input type="text" id="buscaCpf" class="form-control" name="buscaCpf" required>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="buscaNome">Buscar Nome:</label>
+                    <input type="text" id="buscaNome" class="form-control" name="buscaNome" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <button type="button" id="btn-buscar"> Buscar </button>
+                    <button type="button" id="btn-alterar"> Alterar </button>
+                    <button type="button" id="btn-excluir"> Excluir </button>
+                    <a href="./cadastro.html"><button type="button"> Cancelar </button></a>
+                </div>
+            </div>
+            <button type="button" id="btn-confirmar" hidden> Confirmar </button>
+            <div id="espacoTabela"></div>
+        </form>
+    </div>
+</body>
+<footer>
+    <p>&copy; 2023 - Todos os direitos reservados.</p>
+</footer>
+
+</html>
