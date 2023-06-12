@@ -27,6 +27,16 @@ Este projeto é um sistema fictício de feirão de moradia, para fim acadêmico 
 
 Os testes da API podem ser realizados utilizando o Postman. Um vídeo demonstrando o teste da API pode ser encontrado no meu drive no link: https://drive.google.com/file/d/1ehL9l1osLLDf2QLMAY1pOVHKfmL8MwwM/view?usp=sharing
 
+## Telas
+Tela Principal / Cadastro:
+![image](https://github.com/carolxli/ProjetoCrud/assets/94635867/0ba5685e-b6a3-4bd5-8b55-50c83ab862e0)
+
+Tela de Busca / Alteração e Exclusão:
+![image](https://github.com/carolxli/ProjetoCrud/assets/94635867/47e66102-415b-433e-a6c3-1943e415b081)
+
+
+
+
 ## Contribuição
 
 Contribuições são bem-vindas! Caso tenha alguma sugestão, correção de bugs ou melhorias, por favor, abra uma issue ou submeta um pull request.
